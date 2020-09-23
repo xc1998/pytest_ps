@@ -1,0 +1,213 @@
+{
+  "uid" : "b2f169497dd1b452",
+  "name" : "test_add_user[test_user_003--1 348-883-4010-1 348-883-4010]",
+  "fullName" : "scripts.test_add_user.Test_add_user#test_add_user",
+  "historyId" : "e88d27041ba70b73eebf59327bdfdf04",
+  "time" : {
+    "start" : 1600851679770,
+    "stop" : 1600851701348,
+    "duration" : 21578
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "add_user",
+    "time" : {
+      "start" : 1600851678293,
+      "stop" : 1600851679768,
+      "duration" : 1475
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600851577229,
+      "stop" : 1600851601992,
+      "duration" : 24763
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d2ed39f6f7903cb1",
+      "name" : "点击添加用户名",
+      "source" : "d2ed39f6f7903cb1.attach",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "dd2f8c34213a90bf",
+      "name" : "点击添加手机号",
+      "source" : "dd2f8c34213a90bf.attach",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "f60135998accc8e8",
+      "name" : "点击返回保存",
+      "source" : "f60135998accc8e8.attach",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "2bdbe7ab9bd2adab",
+      "name" : "点击手机返回按钮",
+      "source" : "2bdbe7ab9bd2adab.attach",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600851724358,
+      "stop" : 1600851729169,
+      "duration" : 4811
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('add_user')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_add_user"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BFU9FO1"
+  }, {
+    "name" : "thread",
+    "value" : "22364-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_add_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "'1 348-883-4010'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  }, {
+    "name" : "phone",
+    "value" : "'1 348-883-4010'"
+  }, {
+    "name" : "test_num",
+    "value" : "'test_user_003'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95104540d1c70cd6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600851529880,
+        "stop" : 1600851529880,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a453be867af0a594",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600851455629,
+        "stop" : 1600851455629,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "987fb3ba49bca277",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600851212344,
+        "stop" : 1600851212344,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8093c95d45e1feb1",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600849480727,
+        "stop" : 1600849480727,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4451af9a1739f541",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600849318391,
+        "stop" : 1600849318391,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "77e456b940c0788c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600849264884,
+        "stop" : 1600849264884,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff8eade7f9a3c04d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'po'",
+      "time" : {
+        "start" : 1600849017396,
+        "stop" : 1600849017396,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('add_user')" ]
+  },
+  "source" : "b2f169497dd1b452.json",
+  "parameterValues" : [ "'1 348-883-4010'", "''", "'1 348-883-4010'", "'test_user_003'" ]
+}

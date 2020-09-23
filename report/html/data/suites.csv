@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 23 17:00:55 CST 2020","Wed Sep 23 17:01:18 CST 2020","22708","scripts","test_add_user","Test_add_user","","","test_add_user[test_user_002-x--x]",""
+"failed","Wed Sep 23 17:00:06 CST 2020","Wed Sep 23 17:00:54 CST 2020","47900","scripts","test_add_user","Test_add_user","","","test_add_user[test_user_001---]",""
+"passed","Wed Sep 23 17:01:42 CST 2020","Wed Sep 23 17:02:04 CST 2020","21737","scripts","test_add_user","Test_add_user","","","test_add_user[test_user_004-xx-1 348-883-4010-xx]",""
+"passed","Wed Sep 23 17:01:19 CST 2020","Wed Sep 23 17:01:41 CST 2020","21578","scripts","test_add_user","Test_add_user","","","test_add_user[test_user_003--1 348-883-4010-1 348-883-4010]",""

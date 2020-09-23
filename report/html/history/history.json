@@ -1,0 +1,79 @@
+{
+  "c6cfc336c59d38d83ff0b0ee4736bf71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2743e1fbbbbf8a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600851655570,
+        "stop" : 1600851678278,
+        "duration" : 22708
+      }
+    } ]
+  },
+  "e88d27041ba70b73eebf59327bdfdf04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2f169497dd1b452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600851679770,
+        "stop" : 1600851701348,
+        "duration" : 21578
+      }
+    } ]
+  },
+  "200c96f572ab43af22aa18ac051ccdf2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2257e785859f0a66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600851702611,
+        "stop" : 1600851724348,
+        "duration" : 21737
+      }
+    } ]
+  },
+  "853b26450d616eb240e1185ff2de9141" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e704f0e1d17d1f57",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '' in ['@a', 'Mr f', '1111', '132 4567 8909']\n +  where ['@a', 'Mr f', '1111', '132 4567 8909'] = <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>>()\n +    where <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>> = <page.add_user_page.Add_user_page object at 0x049811D0>.get_user_list\n +      where <page.add_user_page.Add_user_page object at 0x049811D0> = <test_add_user.Test_add_user object at 0x0492AE70>.add_user_obj",
+      "time" : {
+        "start" : 1600851606840,
+        "stop" : 1600851654740,
+        "duration" : 47900
+      }
+    } ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "uid" : "e704f0e1d17d1f57",
+  "name" : "test_add_user[test_user_001---]",
+  "fullName" : "scripts.test_add_user.Test_add_user#test_add_user",
+  "historyId" : "853b26450d616eb240e1185ff2de9141",
+  "time" : {
+    "start" : 1600851606840,
+    "stop" : 1600851654740,
+    "duration" : 47900
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' in ['@a', 'Mr f', '1111', '132 4567 8909']\n +  where ['@a', 'Mr f', '1111', '132 4567 8909'] = <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>>()\n +    where <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>> = <page.add_user_page.Add_user_page object at 0x049811D0>.get_user_list\n +      where <page.add_user_page.Add_user_page object at 0x049811D0> = <test_add_user.Test_add_user object at 0x0492AE70>.add_user_obj",
+  "statusTrace" : "self = <test_add_user.Test_add_user object at 0x0492AE70>\ntest_num = 'test_user_001', name = '', phone = '', expect = ''\n\n    @pytest.mark.parametrize(\"test_num,name,phone,expect\", read_test_data())\n    @pytest.mark.usefixtures(\"add_user\")\n    def test_add_user(self, test_num, name, phone, expect):\n        self.add_user_obj .add_user_data(name, phone)\n        if test_num == \"test_001\":\n            assert expect not in self.add_user_obj .get_user_list()\n        else:\n>           assert expect in self.add_user_obj .get_user_list()\nE           AssertionError: assert '' in ['@a', 'Mr f', '1111', '132 4567 8909']\nE            +  where ['@a', 'Mr f', '1111', '132 4567 8909'] = <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>>()\nE            +    where <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>> = <page.add_user_page.Add_user_page object at 0x049811D0>.get_user_list\nE            +      where <page.add_user_page.Add_user_page object at 0x049811D0> = <test_add_user.Test_add_user object at 0x0492AE70>.add_user_obj\n\nscripts\\test_add_user.py:38: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1600851577229,
+      "stop" : 1600851601992,
+      "duration" : 24763
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "add_user",
+    "time" : {
+      "start" : 1600851601993,
+      "stop" : 1600851606824,
+      "duration" : 4831
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '' in ['@a', 'Mr f', '1111', '132 4567 8909']\n +  where ['@a', 'Mr f', '1111', '132 4567 8909'] = <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>>()\n +    where <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>> = <page.add_user_page.Add_user_page object at 0x049811D0>.get_user_list\n +      where <page.add_user_page.Add_user_page object at 0x049811D0> = <test_add_user.Test_add_user object at 0x0492AE70>.add_user_obj",
+    "statusTrace" : "self = <test_add_user.Test_add_user object at 0x0492AE70>\ntest_num = 'test_user_001', name = '', phone = '', expect = ''\n\n    @pytest.mark.parametrize(\"test_num,name,phone,expect\", read_test_data())\n    @pytest.mark.usefixtures(\"add_user\")\n    def test_add_user(self, test_num, name, phone, expect):\n        self.add_user_obj .add_user_data(name, phone)\n        if test_num == \"test_001\":\n            assert expect not in self.add_user_obj .get_user_list()\n        else:\n>           assert expect in self.add_user_obj .get_user_list()\nE           AssertionError: assert '' in ['@a', 'Mr f', '1111', '132 4567 8909']\nE            +  where ['@a', 'Mr f', '1111', '132 4567 8909'] = <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>>()\nE            +    where <bound method Add_user_page.get_user_list of <page.add_user_page.Add_user_page object at 0x049811D0>> = <page.add_user_page.Add_user_page object at 0x049811D0>.get_user_list\nE            +      where <page.add_user_page.Add_user_page object at 0x049811D0> = <test_add_user.Test_add_user object at 0x0492AE70>.add_user_obj\n\nscripts\\test_add_user.py:38: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c10f79ea41d0273d",
+      "name" : "点击添加用户名",
+      "source" : "c10f79ea41d0273d.attach",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "88ca51c37ad7dfb1",
+      "name" : "点击添加手机号",
+      "source" : "88ca51c37ad7dfb1.attach",
+      "type" : "text/plain",
+      "size" : 6
+    }, {
+      "uid" : "9738e95a3827a9c5",
+      "name" : "点击返回保存",
+      "source" : "9738e95a3827a9c5.attach",
+      "type" : "text/plain",
+      "size" : 6
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1600851724358,
+      "stop" : 1600851729169,
+      "duration" : 4811
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('add_user')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_add_user"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BFU9FO1"
+  }, {
+    "name" : "thread",
+    "value" : "22364-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_add_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "''"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  }, {
+    "name" : "phone",
+    "value" : "''"
+  }, {
+    "name" : "test_num",
+    "value" : "'test_user_001'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7d456e054a3f0a9d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600851529742,
+        "stop" : 1600851529742,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6d14cea419aa4b50",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600851455468,
+        "stop" : 1600851455468,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "995e6956e353e7bc",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600851212204,
+        "stop" : 1600851212204,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe734d9834a92fb0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600849480621,
+        "stop" : 1600849480621,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bb006d4160b0ba3a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600849318279,
+        "stop" : 1600849318279,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "74fb7476fbb806ff",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'add_user_obj'",
+      "time" : {
+        "start" : 1600849264779,
+        "stop" : 1600849264779,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46571d43c8beec0b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_add_user' object has no attribute 'po'",
+      "time" : {
+        "start" : 1600849017272,
+        "stop" : 1600849017272,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@pytest.mark.usefixtures('add_user')" ]
+  },
+  "source" : "e704f0e1d17d1f57.json",
+  "parameterValues" : [ "''", "''", "''", "'test_user_001'" ]
+}
